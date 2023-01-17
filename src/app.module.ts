@@ -12,7 +12,7 @@ import { CommonsModule } from './commons/commons.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://jucester:y9VdsW13Yq9d8hUH@cluster0.wusjj.mongodb.net/vgstation?authSource=admin&replicaSet=atlas-24kzg2-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true',
+      'mongodb+srv://localhost',
     ),
     UsersModule,
     TicketsModule,
